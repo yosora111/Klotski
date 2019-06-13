@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="4"
+    android:rowCount="5"
+    android:orientation="horizontal"
+    android:id="@+id/myGridLayout"
+    tools:context=".SecondActivity">
+
+
+    <ImageView
+        android:id="@+id/zhugeliang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:src="@drawable/zhugeliang"
+        />
+    <ImageView
+        android:id="@+id/liubei"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="2"
+        android:scaleType="fitXY"
+        android:src="@drawable/liubei"
+        />
+    <ImageView
+        android:id="@+id/zhaoyun"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:src="@drawable/zhaoyun"
+        />
+    <ImageView
+        android:id="@+id/zhangfei"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:src="@drawable/zhangfei"
+        />
+    <ImageView
+        android:id="@+id/guanyu"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="2"
+        android:layout_rowSpan="1"
+        android:layout_gravity="fill"
+        android:src="@drawable/guanyu"
+        />
+    <ImageView
+        android:id="@+id/machao"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="2"
+        android:layout_gravity="fill"
+        android:src="@drawable/machao"
+        />
+    <ImageView
+        android:id="@+id/zu1"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:layout_gravity="fill"
+        android:src="@drawable/zu"
+        />
+    <ImageView
+        android:id="@+id/zu2"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:layout_gravity="fill"
+        android:src="@drawable/zu"
+        />
+
+
+    <ImageView
+        android:id="@+id/zu3"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:layout_gravity="fill"
+        android:src="@drawable/zu"
+        />
+    <ImageView />
+    <ImageView />
+    <ImageView
+        android:id="@+id/zu4"
+        android:scaleType="fitXY"
+        android:layout_columnSpan="1"
+        android:layout_rowSpan="1"
+        android:layout_gravity="fill"
+        android:src="@drawable/zu" />
+
+</GridLayout>
